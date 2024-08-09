@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratique - agenda</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Whisper&display=swap" rel="stylesheet">
+    <link rel="icon" href="./contato.png">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./contato.png" alt="Agenda">
+            <h1 class="roboto-bold">Agenda</h1>
+        </header>
+        <form id="form">
+            <input type="text" placeholder="Nome" required id="nomes">
+            <input type="tel" placeholder="Telefone de contato" required id="numeros">
+            <button type="submit">Adicionar contato</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th class="roboto-bold">
+                        Nome
+                    </th>
+                    <th class="roboto-bold">
+                        Telefone de contato
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="whisper-regular"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
